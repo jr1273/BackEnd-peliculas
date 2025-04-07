@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "nH0Eg5lMikFPCEqZwqFk7DR8KYHOZkVtpVDxoquPvZ8=",
+  "Hash": "D5LKKOJ0pIfhVZkonTKKEXPGHfz7i0hh8rbnE4fHMdA=",
   "Source": "Peliculas Api",
   "BasePath": "_content/Peliculas Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Peliculas Api\\wwwroot",
+      "Source": "Peliculas Api",
+      "ContentRoot": "C:\\Users\\Jaime\\Documents\\Cursos\\Peliculas Api\\Peliculas Api\\wwwroot\\",
+      "BasePath": "_content/Peliculas Api",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [],
   "Endpoints": []
 }
