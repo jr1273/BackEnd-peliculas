@@ -1,6 +1,11 @@
+using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using NetTopologySuite;
+using NetTopologySuite.Geometries;
 using Peliculas_Api;
 using Peliculas_Api.Servicios;
+using Peliculas_Api.Utilidades;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,10 +16,17 @@ builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddAutoMapper(typeof(Program));
-builder.Services.AddDbContext<ApplicationDbContext>(opciones => 
-opciones.UseSqlServer("name=DefaultConnection"));
+builder.Services.AddSingleton(proveedor => new MapperConfiguration(configuracion =>
+{
+    var geometryFactory = proveedor.GetRequiredService<GeometryFactory>();
+    configuracion.AddProfile(new AutoMapperProfiles(geometryFactory));
+}).CreateMapper());
 
+builder.Services.AddDbContext<ApplicationDbContext>(opciones => 
+opciones.UseSqlServer("name=DefaultConnection", sqlServer =>
+sqlServer.UseNetTopologySuite()));
+
+builder.Services.AddSingleton<GeometryFactory>(NtsGeometryServices.Instance.CreateGeometryFactory(srid: 4326));
 builder.Services.AddOutputCache(opciones  =>
 {
     opciones.DefaultExpirationTimeSpan = TimeSpan.FromSeconds(60);

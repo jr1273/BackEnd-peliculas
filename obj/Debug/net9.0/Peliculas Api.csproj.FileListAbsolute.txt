@@ -170,3 +170,7 @@ C:\Users\Jaime\Documents\Cursos\Peliculas Api\Peliculas Api\bin\Debug\net9.0\run
 C:\Users\Jaime\Documents\Cursos\Peliculas Api\Peliculas Api\obj\Debug\net9.0\Peliculas Api.sourcelink.json
 C:\Users\Jaime\Documents\Cursos\Peliculas Api\Peliculas Api\bin\Debug\net9.0\AutoMapper.dll
 C:\Users\Jaime\Documents\Cursos\Peliculas Api\Peliculas Api\bin\Debug\net9.0\Peliculas Api.staticwebassets.runtime.json
+C:\Users\Jaime\Documents\Cursos\Peliculas Api\Peliculas Api\obj\Debug\net9.0\EFCoreSqlServerNetTopologySuite.cs
+C:\Users\Jaime\Documents\Cursos\Peliculas Api\Peliculas Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite.dll
+C:\Users\Jaime\Documents\Cursos\Peliculas Api\Peliculas Api\bin\Debug\net9.0\NetTopologySuite.dll
+C:\Users\Jaime\Documents\Cursos\Peliculas Api\Peliculas Api\bin\Debug\net9.0\NetTopologySuite.IO.SqlServerBytes.dll
