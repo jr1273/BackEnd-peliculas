@@ -379,6 +379,26 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Peliculas_Api.Controllers.GenerosController",
+    "Method": "Get",
+    "RelativePath": "api/Generos/todos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Peliculas_Api.DTOs.GeneroDTO, Peliculas Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "PeliculasAPI.Controllers.PeliculasController",
     "Method": "Post",
     "RelativePath": "api/peliculas",

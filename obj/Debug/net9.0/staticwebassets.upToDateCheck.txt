@@ -4,5 +4,6 @@ wwwroot\actores\55058038-b267-4024-b9fc-33e801a6a12f.jpg
 wwwroot\actores\5a421be9-d6b6-4332-ab79-5a7d0a8fc180.jfif
 wwwroot\actores\a84e9240-3faf-467f-9704-0cd62502e616.jpg
 wwwroot\peliculas\2cea3f11-caa4-42ae-8b6b-6ff4621e3854.jfif
+wwwroot\peliculas\4701f4d5-1d66-438d-9746-30190047b0cd.jpeg
 wwwroot\peliculas\6bbfe118-d3c6-4fa5-84c0-d164d6d7a80c.webp
 wwwroot\peliculas\f43df671-eb2e-45bf-9515-20b686d8b145.jpg

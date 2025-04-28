@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QjdNVCIn/BVsJf470BBKQ4ZL2YwNLlEIMHd3TyTp3nA=",
+  "Hash": "hRvN5+Eh3Tda0Zd84zpz3BFtg1S41j4QLomAO9MiAVI=",
   "Source": "Peliculas Api",
   "BasePath": "_content/Peliculas Api",
   "Mode": "Default",
@@ -141,6 +141,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\peliculas\\2cea3f11-caa4-42ae-8b6b-6ff4621e3854.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\Jaime\\Documents\\Cursos\\Peliculas Api\\Peliculas Api\\wwwroot\\peliculas\\4701f4d5-1d66-438d-9746-30190047b0cd.jpeg",
+      "SourceId": "Peliculas Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jaime\\Documents\\Cursos\\Peliculas Api\\Peliculas Api\\wwwroot\\",
+      "BasePath": "_content/Peliculas Api",
+      "RelativePath": "peliculas/4701f4d5-1d66-438d-9746-30190047b0cd#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b57qlej5im",
+      "Integrity": "Ubx+q+FDEdmDL7PppjHUYg2fdCI4dlmXaSg6WBSYhgc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\peliculas\\4701f4d5-1d66-438d-9746-30190047b0cd.jpeg"
     },
     {
       "Identity": "C:\\Users\\Jaime\\Documents\\Cursos\\Peliculas Api\\Peliculas Api\\wwwroot\\peliculas\\6bbfe118-d3c6-4fa5-84c0-d164d6d7a80c.webp",
@@ -675,6 +696,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-ZI0FpjgjB4elCmAuGvDgo4U+Ui5FI2v/EcZLzDt7h0c="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/4701f4d5-1d66-438d-9746-30190047b0cd.b57qlej5im.jpeg",
+      "AssetFile": "C:\\Users\\Jaime\\Documents\\Cursos\\Peliculas Api\\Peliculas Api\\wwwroot\\peliculas\\4701f4d5-1d66-438d-9746-30190047b0cd.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "216910"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ubx+q+FDEdmDL7PppjHUYg2fdCI4dlmXaSg6WBSYhgc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 07:05:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b57qlej5im"
+        },
+        {
+          "Name": "label",
+          "Value": "peliculas/4701f4d5-1d66-438d-9746-30190047b0cd.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ubx+q+FDEdmDL7PppjHUYg2fdCI4dlmXaSg6WBSYhgc="
+        }
+      ]
+    },
+    {
+      "Route": "peliculas/4701f4d5-1d66-438d-9746-30190047b0cd.jpeg",
+      "AssetFile": "C:\\Users\\Jaime\\Documents\\Cursos\\Peliculas Api\\Peliculas Api\\wwwroot\\peliculas\\4701f4d5-1d66-438d-9746-30190047b0cd.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "216910"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ubx+q+FDEdmDL7PppjHUYg2fdCI4dlmXaSg6WBSYhgc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 07:05:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ubx+q+FDEdmDL7PppjHUYg2fdCI4dlmXaSg6WBSYhgc="
         }
       ]
     },
